@@ -69,22 +69,11 @@ li {
   }
 }
 
-a,
 button,
 select,
 input {
   &:focus {
     outline: 0;
-  }
-}
-
-a {
-  text-decoration: none;
-
-  &:-webkit-any-link,
-  &:-webkit-any-link:active,
-  &:visited {
-    color: inherit;
   }
 }
 

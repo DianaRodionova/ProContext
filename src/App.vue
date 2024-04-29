@@ -18,7 +18,7 @@ const { lists } = storeToRefs(rootStore)
 
     <ul class="app__panel">
       <li class="app__lists" v-for="list in lists" :key="list.name">
-        <Lists :list="list" :items="list.items" :title="list.name" />
+        <Lists :items="list.items" :title="list.name" />
       </li>
     </ul>
   </div>
