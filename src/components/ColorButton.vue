@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <button class="color-button" type="button" :style="{ 'background-color': props.color }" />
+  <button class="color-button" type="button" :style="{ 'background-color': props.color }"></button>
 </template>
 
 <style lang="scss" scoped>
